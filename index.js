@@ -89,7 +89,7 @@ var Player = module.exports.Player = function (element, opts) {
 inherits(Player, EventEmitter);
 
 Player.prototype.applyYTMethod = function (methodName, args) {
-  this._ytPlayer[methodName].apply(this._ytPlayer, args);
+  return this._ytPlayer[methodName].apply(this._ytPlayer, args);
 };
 
 var proxyYTMethod = module.exports.proxyYTMethod = function (methodName) {
