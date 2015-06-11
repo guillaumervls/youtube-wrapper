@@ -35,10 +35,10 @@ player.play(); // No need to wait for the onReady event !
 
 Available events and methods are listed in `youTube.PROXIED_YT_EVENTS` and `youTube.PROXIED_YT_METHODS`.
 
-If YouTube add some events before an update of this module you can add them to `youTube.PROXIED_YT_EVENTS`.
+If YouTube adds some events before an update of this module you can add them to `youTube.PROXIED_YT_EVENTS`.
 
-If YouTube add some methods before an update of this module you can add them with `youTube.proxyYTMethod('methodName')`.
-Or you can use `player.applyYTMethod('methodName', [args])``
+If YouTube adds some methods before an update of this module you can add them with `youTube.proxyYTMethod('methodName')`.
+Or you can use `player.applyYTMethod('methodName', [args])`
 
 ## License
 
