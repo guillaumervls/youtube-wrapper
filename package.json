@@ -1,0 +1,29 @@
+{
+  "name": "youtube-wrapper",
+  "version": "1.0.0",
+  "description": "A simpler way to load YouTube players.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillaumervls/youtube-wrapper.git"
+  },
+  "keywords": [
+    "youtube",
+    "api",
+    "player",
+    "wrapper",
+    "video"
+  ],
+  "author": "guillaumervls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumervls/youtube-wrapper/issues"
+  },
+  "homepage": "https://github.com/guillaumervls/youtube-wrapper",
+  "dependencies": {
+    "defer-calls": "^1.0.3"
+  }
+}
