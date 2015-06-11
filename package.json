@@ -1,6 +1,6 @@
 {
   "name": "youtube-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simpler way to load YouTube players.",
   "main": "index.js",
   "scripts": {
